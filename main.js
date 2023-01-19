@@ -1,7 +1,7 @@
 console.log("Hello")
 
-let firstName = "Jane"
+const firstName = "Jane"
 
-firstName = "Abc"
+const lastName = "Doe"
 
-firstName = "Joe"
+const temLiteral = `My first name is: $(firstName), My last name: $(lastName), $(2+2)`
